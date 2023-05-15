@@ -1,7 +1,7 @@
 let listaCompras = prompt("Ingrese un número del 1 al 4")
 
-while (listaCompras != "ESC") {
-    switch (listaCompras) {
+while (listaCompras !== "ESC") {
+    switch (Number(listaCompras)) {
         case 1:
             alert("Papa")
             break;
@@ -18,5 +18,5 @@ while (listaCompras != "ESC") {
             alert("No se encuentra dentro de la lista")
             break;
     }
-    let listaCompras = prompt("Ingrese un número del 1 al 4")
+    listaCompras = prompt("Ingrese un número del 1 al 4")
 }
