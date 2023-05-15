@@ -2,21 +2,21 @@ let listaCompras = prompt("Ingrese un número del 1 al 4")
 
 while (listaCompras != "ESC") {
     switch (listaCompras) {
-        case "1":
+        case 1:
             alert("Papa")
-            break
-        case "2":
+            break;
+        case 2:
             alert("Tomate")
-            break
-        case "3":
+            break;
+        case 3:
             alert("Carne")
-            break
-        case "4":
+            break;
+        case 4:
             alert("Pollo")
-            break
-        default:
+            break;
+        default :
             alert("No se encuentra dentro de la lista")
-            break
+            break;
     }
     let listaCompras = prompt("Ingrese un número del 1 al 4")
 }
